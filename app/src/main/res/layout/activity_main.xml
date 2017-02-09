@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.izzystannett.myapplication.MainActivity">
 
-
     <ImageView
         android:src="@drawable/greenroad"
         android:layout_width="match_parent"
@@ -14,40 +13,19 @@
         android:scaleType="centerCrop"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ThankYou"
         android:text="@string/maintop"
-        android:textSize="34sp"
-        android:fontFamily="sans-serif-smallcaps"
-        android:textColor="@android:color/white"
         android:layout_alignParentRight="true"
-        android:textStyle="bold"
-        android:layout_marginTop="24dp"
-        android:layout_marginRight="24dp"
-        android:id="@+id/maintop"
-        />
+        android:id="@+id/maintop" />
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ForEverything"
         android:text="@string/secondtop"
-        android:textSize="18sp"
-        android:fontFamily="sans-serif-smallcaps"
-        android:textColor="@android:color/white"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/maintop"
-        android:textStyle="bold"
-        android:layout_marginRight="24dp"
-        />
+        android:layout_below="@id/maintop" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/GoodLuck"
         android:text="@string/goodluck"
-        android:textSize="24sp"
-        android:fontFamily="sans-serif-smallcaps"
-        android:textColor="@android:color/white"
-        android:layout_alignParentBottom="true"
-        android:textStyle="bold"
-        android:layout_margin="20dp"
-        />
+        android:layout_alignParentBottom="true" />
 14 down steps
     </RelativeLayout>
